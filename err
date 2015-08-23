@@ -1,0 +1,70 @@
+Setting environment for using Microsoft Visual Studio .NET tools.
+(If you also have Visual C++ 6.0 installed and wish to use its tools
+from the command line, run vcvars32.bat for Visual C++ 6.0.)
+Changed directory to debug...
+	csc /debug:full /incr+ /define:DEBUG /debug:full /debug+ /target:winexe /out:bg.exe /addmodule:AssemblyInfo.netmodule ..\bg.cs ..\..\shared\ole32.cs ..\..\shared\ui.cs ..\graph.cs ..\hover.cs
+Microsoft (R) Visual C# .NET Compiler version 7.00.9466
+for Microsoft (R) .NET Framework version 1.0.3705
+Copyright (C) Microsoft Corporation 2001. All rights reserved.
+
+D:\dev\bg\bg.cs(1580,3): error CS0117: 'bg.BgGraph' does not contain a definition for 'CalcGraph'
+D:\dev\bg\bg.cs(1642,3): error CS0117: 'bg.BgGraph' does not contain a definition for 'CalcGraph'
+D:\dev\bg\Graph.cs(166,14): error CS0103: The name 'XFromDate' does not exist in the class or namespace 'bg.BgGraph'
+D:\dev\bg\Graph.cs(167,14): error CS0103: The name 'YFromReading' does not exist in the class or namespace 'bg.BgGraph'
+D:\dev\bg\Graph.cs(670,4): error CS1501: No overload for method 'CalcGraph' takes '0' arguments
+D:\dev\bg\Graph.cs(231,16): (Location of symbol related to previous error)
+D:\dev\bg\Graph.cs(681,4): error CS0246: The type or namespace name 'PTFI' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(684,33): error CS0103: The name 'ptfiHit' does not exist in the class or namespace 'bg.BgGraph'
+D:\dev\bg\Graph.cs(690,25): error CS0246: The type or namespace name 'ptfiHit' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(693,27): error CS0103: The name 'rectfHit' does not exist in the class or namespace 'bg.BgGraph'
+D:\dev\bg\Graph.cs(217,20): error CS0103: The name 'm_nHeight' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(240,25): error CS0103: The name 'm_nWidth' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(243,20): error CS0103: The name 'm_nHeight' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(257,19): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(274,7): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(275,7): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(276,7): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(280,7): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(284,5): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(285,5): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(299,26): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(299,44): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(303,12): error CS0037: Cannot convert null to 'bg.BgGraph.CG.PTFI' because it is a value type
+D:\dev\bg\Graph.cs(317,29): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(317,47): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(318,66): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(321,14): error CS0117: 'bg.BgGraph.CG' does not contain a definition for 'BackColor'
+D:\dev\bg\Graph.cs(329,22): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(337,43): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(338,16): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(341,43): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(341,87): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(342,32): error CS0103: The name 'font' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(343,47): error CS0103: The name 'font' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(350,49): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(353,74): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(354,52): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(354,84): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(354,101): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(360,32): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(363,50): error CS0246: The type or namespace name 'pb' could not be found (are you missing a using directive or an assembly reference?)
+D:\dev\bg\Graph.cs(389,13): error CS0128: A local variable named 'ptf' is already defined in this scope
+D:\dev\bg\Graph.cs(404,38): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(447,5): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(459,51): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(461,86): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(469,35): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(470,36): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(478,36): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(553,46): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(554,58): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(594,35): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(595,36): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(599,53): error CS0103: The name 'm_nWidth' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(601,30): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(602,30): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(606,53): error CS0103: The name 'm_nWidth' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(608,29): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(609,29): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(611,53): error CS0103: The name 'm_nWidth' does not exist in the class or namespace 'bg.BgGraph.CG'
+D:\dev\bg\Graph.cs(621,56): error CS0038: Cannot access a nonstatic member of outer type 'bg.BgGraph' via nested type 'bg.BgGraph.CG'
